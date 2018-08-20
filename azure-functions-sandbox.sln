@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functions.authenticated", "functions.authenticated\functions.authenticated.csproj", "{2758A5FE-443A-4049-8CC2-C97388A65200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functions.authenticated.fullframework", "functions.authenticated.fullframework\functions.authenticated.fullframework.csproj", "{0E8992A6-9E0F-493C-8C5C-E947D69F2A49}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{2758A5FE-443A-4049-8CC2-C97388A65200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2758A5FE-443A-4049-8CC2-C97388A65200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2758A5FE-443A-4049-8CC2-C97388A65200}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E8992A6-9E0F-493C-8C5C-E947D69F2A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E8992A6-9E0F-493C-8C5C-E947D69F2A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E8992A6-9E0F-493C-8C5C-E947D69F2A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E8992A6-9E0F-493C-8C5C-E947D69F2A49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
