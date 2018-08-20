@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FDCA5ED6-2DD8-453D-8998-3E41EEBEC95B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functions.authenticated", "functions.authenticated\functions.authenticated.csproj", "{2758A5FE-443A-4049-8CC2-C97388A65200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2758A5FE-443A-4049-8CC2-C97388A65200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2758A5FE-443A-4049-8CC2-C97388A65200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2758A5FE-443A-4049-8CC2-C97388A65200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2758A5FE-443A-4049-8CC2-C97388A65200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D73274B-D424-4080-8E7B-885C031F4012}
+	EndGlobalSection
+EndGlobal
