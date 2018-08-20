@@ -18,11 +18,8 @@ namespace functions.authenticated
         [FunctionName("aadauthenticated")]
         public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)]
-            HttpRequest req, 
-            ILogger log)
+            HttpRequest req)
         {
-            log.LogInformation("C# HTTP trigger function processed a request.");
-
             var name = ClaimsPrincipal.Current?.Identity?.Name;
             var claims = ClaimsPrincipal.Current?.Claims?
                 .ToDictionary(c => c.Type, c => c.Value);
